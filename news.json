@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "date": "2025-06-05",
+      "title": "Pins Go Boom! makes league season high stats",
+      "text": "Pins Go Boom! team scratch series of 2094 for Week 5 (05 Jun) makes it to League Season High Team Scratch Series at #4. The team also won all 4 points for the week."
+    },
+    {
+      "date": "2025-06-15",
+      "title": "BLS release 0.2.0",
+      "text": "Weekend changes are now available! Multiple changes, around stats, new / updated graphs, and a few utility pages. Boring details at https://github.com/bindul/bls/releases/tag/v-0.2.0"
+    },
+    {
+      "date": "2025-07-04",
+      "title": "New milestone for Luke",
+      "text": "Luke has a new personal high score of 278"
+    },
+    {
+      "date": "2025-10-17",
+      "title": "New Team on BLS!!",
+      "text": "O.G. Hookers! Welcome to the Bowling League Stas (a.k.a. Bindul Report)!!!"
+    },
+    {
+      "date": "2026-01-29",
+      "title": "Back in business with carry-over averages and handicap",
+      "text": "Updated BLS to support Beer League that carries over averages and handicap from fall season into winter season. We are back in business!"
+    }
+  ]
+}

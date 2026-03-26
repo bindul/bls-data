@@ -3,7 +3,7 @@
   "name": "Pins Go Boom!",
   "number": 11,
   "division": "1",
-  "current-rank": "10",
+  "current-rank": "12",
   "roster": [
     {
       "id": "ne1",
@@ -92,6 +92,12 @@
         "pins": 399,
         "games": 3
       }
+    },
+    {
+      "id": "rg1",
+      "name": "Reema",
+      "status": "SUBSTITUTE",
+      "parking-lot-threshold": 80
     }
   ],
   "matchups": [
@@ -634,12 +640,63 @@
       "entering-rank": "10",
       "lanes": [7, 8],
       "oil-pattern": "HOUSE-SHOT-2ND-LEAGUE",
+      "notes": [
+        "Season team accolades (division): Scratch Game #2",
+        "Weekly team accolades (division): Handicap Series #2",
+        "Weekly individual accolades (division): Luke - Scratch Game #3, Luke - Handicap Game #2, Luke - Handicap Series #3, Luke - Game Over Average #2, Luke - Series Over Average #2"
+      ],
+      "scores": {
+        "player-scores": [
+          {
+            "player": "ne1",
+            "entering-average": 181,
+            "games": [
+              {"frames": [["7", "/"], ["X"], ["9", "/"], ["6", "/"], ["5S", "-"], ["X"], ["9", "/"], ["X"], ["9", "/"], ["X", "9", "/"]]},
+              {"frames": [["8S", "1"], ["8S", "1"], ["8", "/"], ["8", "-"], ["9", "/"], ["X"], ["8", "/"], ["X"], ["9", "-"], ["9", "/", "9"]]},
+              {"frames": [["X"], ["7S", "-"], ["7S", "2"], ["8", "/"], ["X"], ["X"], ["X"], ["9", "-"], ["8", "/"], ["7", "2"]]}
+            ]
+          },
+          {
+            "player": "bb1",
+            "entering-average": 153,
+            "games": [
+              {"arsenal": ["bb1-bw30"], "frames": [["6", "/"], ["9", "/"], ["7", "2"], ["X"], ["8", "/"], ["X"], ["X"], ["8S", "-"], ["X"], ["X", "9", "/"]]},
+              {
+                "arsenal": ["bb1-bw30"],
+                "frames": [["7", "2"], ["X"], ["9", "/"], ["7S", "2"], ["9", "/"], ["X"], ["X"], ["9", "-"], ["7", "1"], ["X", "8S", "/"]]
+              },
+              {
+                "arsenal": ["bb1-bw30"],
+                "frames": [["9", "-"], ["9", "/"], ["9", "/"], ["9", "/"], ["6", "/"], ["X"], ["8", "/"], ["6", "/"], ["8", "/"], ["9", "-"]]
+              }
+            ]
+          },
+          {
+            "player": "lw1",
+            "entering-average": 167,
+            "games": [
+              {"frames": [["7", "2"], ["8S", "-"], ["X"], ["X"], ["9", "-"], ["7", "/"], ["7S", "-"], ["8", "/"], ["X"], ["X", "7", "-"]]},
+              {"frames": [["X"], ["9", "/"], ["9", "/"], ["9", "-"], ["X"], ["X"], ["X"], ["X"], ["X"], ["X", "X", "X"]]},
+              {"frames": [["X"], ["7", "/"], ["X"], ["X"], ["X"], ["X"], ["X"], ["9", "/"], ["6S", "2"], ["8S", "-"]]}
+            ]
+          },
+          {
+            "player": "bg1",
+            "entering-average": 200,
+            "games": [
+              {"frames": [["6S", "/"], ["9", "-"], ["8S", "1"], ["8", "/"], ["9", "/"], ["X"], ["X"], ["X"], ["X"], ["X", "X", "7"]]},
+              {"frames": [["X"], ["X"], ["8S", "1"], ["9", "/"], ["X"], ["X"], ["-", "9"], ["7", "/"], ["9", "/"], ["X", "9", "/"]]},
+              {"frames": [["9", "/"], ["X"], ["X"], ["X"], ["X"], ["X"], ["5S", "-"], ["7", "/"], ["9", "/"], ["8S", "1"]]}
+            ]
+          }
+        ]
+      },
       "opponent": {
         "team-id": "2526-winter-beer-5",
         "entering-rank": "14",
         "hdcp": 200,
         "vacant": false,
-        "absent": false,
+        "absent": true,
         "pre-post-bowl": false
       }
     },
@@ -648,33 +705,95 @@
       "scheduled-date": "2026-03-12",
       "bowl-date": "2026-03-12",
       "matchup-type": "REGULAR-DIVISION",
-      "entering-rank": "UNKNOWN",
+      "entering-rank": "7",
       "lanes": [31, 32],
       "oil-pattern": "HOUSE-SHOT-2ND-LEAGUE",
+      "scores": {
+        "player-scores":[
+          {
+            "player": "bb1",
+            "entering-average": 154,
+            "games": [
+              {
+                "arsenal": ["bb1-bw30"],
+                "frames": [["8", "/"], ["9", "/"], ["9", "/"], ["7", "/"], ["9", "-"], ["X"], ["9", "/"], ["7", "2"], ["8", "-"], ["9", "-"]]
+              },
+              {
+                "arsenal": ["bb1-bw30"],
+                "frames": [["X"], ["7", "2"], ["-", "8"], ["6S", "-"], ["7S", "2"], ["9", "/"], ["9", "-"], ["X"], ["X"], ["X", "9", "-"]]
+              },
+              {"arsenal": ["bb1-bw30"], "frames": [["9", "-"], ["8", "1"], ["X"], ["9", "-"], ["X"], ["8S", "1"], ["9", "-"], ["9", "/"], ["X"], ["8S", "1"]]}
+            ]
+          },
+          {
+            "player": "rg1",
+            "entering-average": 0,
+            "hdcp-setting-day": true,
+            "games": [
+              {"frames": [["-", "8"], ["-", "2"], ["8S", "1"], ["9", "-"], ["X"], ["7", "-"], ["9", "-"], ["7", "-"], ["-", "7"], ["8", "-"]]},
+              {"frames": [["8S", "-"], ["7", "/"], ["8", "-"], ["9", "/"], ["7", "-"], ["8", "/"], ["9", "-"], ["-", "4"], ["X"], ["7", "2"]]},
+              {"frames": [["6", "/"], ["7", "-"], ["8", "1"], ["X"], ["6", "3"], ["-", "9"], ["5", "2"], ["7", "-"], ["-", "1"], ["7", "-"]]}
+            ]
+          },
+          {
+            "player": "lw1",
+            "entering-average": 169,
+            "games": [
+              {"frames": [["8S", "-"], ["9", "/"], ["8", "1"], ["9", "-"], ["X"], ["9", "/"], ["7", "/"], ["6", "1"], ["X"], ["X", "X", "X"]]},
+              {"frames": [["X"], ["X"], ["X"], ["6", "/"], ["X"], ["7S", "1"], ["X"], ["X"], ["X"], ["7", "1"]]},
+              {"frames": [["9", "/"], ["X"], ["X"], ["9", "-"], ["X"], ["8S", "/"], ["8", "/"], ["9", "/"], ["9", "/"], ["7", "/", "X"]]}
+            ]
+          },
+          {
+            "player": "bg1",
+            "entering-average": 200,
+            "games": [
+              {"frames": [["X"], ["7S", "1"], ["7S", "2"], ["X"], ["8S", "1"], ["8", "/"], ["X"], ["X"], ["9", "-"], ["8S", "-"]]},
+              {"frames": [["9", "-"], ["9", "/"], ["X"], ["9", "/"], ["8S", "1"], ["9", "/"], ["7S", "-"], ["9", "/"], ["9", "/"], ["6", "3"]]},
+              {"frames": [["X"], ["X"], ["X"], ["X"], ["9", "/"], ["9", "-"], ["9", "/"], ["X"], ["X"], ["7S", "2"]]}
+            ]
+          }
+        ]
+      },
       "opponent": {
         "team-id": "2526-winter-beer-7",
-        "entering-rank": "UNKNOWN",
-        "hdcp": 0,
+        "entering-rank": "6",
+        "hdcp": 57,
         "vacant": false,
         "absent": false,
-        "pre-post-bowl": false
+        "pre-post-bowl": false,
+        "scores": {
+          "games": [
+            { "scratch-score": 807 },
+            { "scratch-score": 799 },
+            { "scratch-score": 803 }
+          ]
+        }
       }
     },
     {
       "week": 11,
       "scheduled-date": "2026-03-19",
-      "bowl-date": "2026-03-19",
+      "bowl-date": "2026-03-28",
       "matchup-type": "REGULAR-DIVISION",
-      "entering-rank": "UNKNOWN",
+      "entering-rank": "10",
       "lanes": [5, 6],
       "oil-pattern": "HOUSE-SHOT-2ND-LEAGUE",
+      "notes": ["Team averages: Nick: 180, Bindul: 153, Luke: 169, Brian: 198"],
       "opponent": {
         "team-id": "2526-winter-beer-2",
-        "entering-rank": "UNKNOWN",
-        "hdcp": 0,
+        "entering-rank": "2",
+        "hdcp": 103,
         "vacant": false,
         "absent": false,
-        "pre-post-bowl": false
+        "pre-post-bowl": false,
+        "scores": {
+          "games": [
+            { "scratch-score": 761 },
+            { "scratch-score": 733 },
+            { "scratch-score": 766 }
+          ]
+        }
       }
     },
     {
@@ -682,13 +801,13 @@
       "scheduled-date": "2026-03-26",
       "bowl-date": "2026-03-26",
       "matchup-type": "REGULAR-DIVISION",
-      "entering-rank": "UNKNOWN",
+      "entering-rank": "12",
       "lanes": [29, 30],
       "oil-pattern": "HOUSE-SHOT-2ND-LEAGUE",
       "opponent": {
         "team-id": "2526-winter-beer-6",
-        "entering-rank": "UNKNOWN",
-        "hdcp": 0,
+        "entering-rank": "10",
+        "hdcp": 190,
         "vacant": false,
         "absent": false,
         "pre-post-bowl": false
